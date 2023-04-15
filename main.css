@@ -1,0 +1,309 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+nav{
+    width: 366px;
+    height: 28px;
+      
+    }
+
+    li{
+        list-style: none;
+
+    }
+    
+    a{
+        text-decoration: none;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        color: #1F3F68;
+    }
+
+    ul{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu{
+        display: flex;
+        justify-content: flex-end;
+
+    }
+
+header{
+color: white;
+font-family: Arial;
+max-width: 1319px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.baner{
+    background-color: #3481D7;
+    width: 100%;
+    height: 250px;
+
+
+}
+
+.blog{
+font-size: 44px;
+text-align: center;
+padding-top: 50px;
+letter-spacing:0.5px ;
+}
+.loren{
+padding-top: 16px;
+font-size: 20px;
+text-align: center;
+padding-left: 250px;
+padding-right: 250px;
+color: rgba(255, 255, 255, 0.674);
+line-height: 30px;
+letter-spacing: 0.5px;
+}
+main{
+max-width: 940px;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+input{
+height: 56px;
+border: none;
+border-radius: 10px;
+background-color: #F4F4F4;
+margin-top: 56px;
+padding-left: 20px;
+}
+.buscador{
+background-color: #F4F4F4;
+width: 100%;
+margin-top: 56px;
+}
+.popular{
+color: #356EAD;
+font-family: Helvetica;
+font-size: 20px;
+margin-top: 56px;
+}
+
+.feugiat{
+font-family: Helvetica;
+font-size: 36px;
+color: #1F3F68;
+margin-top: 4px;
+letter-spacing: 0.4px;
+
+}
+.texh2{
+font-family: Helvetica;
+color: #1F3F68;
+font-size: 22px;
+line-height: 32px;
+letter-spacing: 0.4px;
+}
+.texh3{
+font-family: helvetica;
+color: #1F3F68;
+font-size: 14px;
+padding-top: 15px;
+margin-top: 30px;
+position:relative;
+
+}
+.texh4{
+    color: black;
+    font-size: 14px;
+    font-family: Arial;
+
+}
+.casa{
+    width: 540px;
+    height: 380px;
+}
+.parrafo{
+color: black;
+font-family: arial;
+font-size: 16px;
+letter-spacing: 0.3px;
+line-height:23px;
+margin-right: 35px;
+
+}
+
+.contenedor{
+display: flex; 
+height: 420px;
+
+}
+.contenedor2{
+    width: 940px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+}
+.torre{
+    width: 300px;
+    height: 200px;
+}
+.china{
+    width: 300px;
+    height: 200px;
+}
+.pc{
+    width: 300px;
+    height: 200px;
+}
+.see{
+    font-family: helvetica;
+    font-size: 22px;
+    color: #356EAD;
+    margin-left: 700px;
+    padding-top: 50px;
+}
+    
+
+/********************************/
+
+.linea{
+border-top: 1px solid rgba(0, 0, 0, 0.2);
+margin-top: 40px;
+
+}
+.laptop{
+    width: 330px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.massa{
+font-family: Helvetica;
+font-size: 18px;
+color: #1F3F68;
+letter-spacing: 0.4px;   
+}
+
+.contenedor3{
+display: grid; 
+grid-template-columns: 2fr 3fr;
+gap: 10px;
+    
+}
+.all{
+color: #356EAD;
+font-family: helvetica;
+font-size: 20px;
+}
+.hijo3{
+
+}
+
+.piedepagina{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+background-color: #316099;
+max-width: 940px;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+.footer1{
+background-color: #316099;
+color: white;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding-top: 15px;
+
+}
+.footer1hijo{
+text-align: center;
+}
+
+button{
+    width: 220px;
+    height: 56px;
+    left: 924px;
+    top: 3179px;
+    background: #5A98D0;
+
+}
+.footerh2{
+    width: 304px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-size: 36px;
+    color: #FFFFFF;
+    
+}
+.footerh4{
+    width: 460px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    opacity: 0.6;
+
+}
+
+.old{
+color: #356EAD;
+font-size: 16px;
+font-family: Arial;
+}
+
+.new{
+    color: #356EAD;
+    font-size: 16px;
+    font-family: Arial;  
+}
+.lineafo{
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.596);
+    margin-top: 55px;
+}
+
+.footer2{
+    width: 940px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    margin-left: 60px;
+    margin-top: 60px;
+
+}
+.footer2hijo{
+ align-content: center;
+}
+.footerh3{
+font-family: 'Helvetica';
+font-size: 20px;
+color: white;
+line-height: 30px;
+
+}
+.footerh5{
+font-family: arial;
+font-size: 14px;
+color: rgba(255, 255, 255, 0.87);
+}
+
+.footerh6{
+color: rgba(240, 255, 255, 0.536);
+font-family: 'Arial';
+font-size: 14px;
+line-height: 26px;
+letter-spacing: 0.05em;
+margin-left: 40px;
+}
